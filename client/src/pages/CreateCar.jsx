@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+import CarForm from '../components/CarForm'
+import { createCar } from '../services/CarsAPI'
 import '../App.css'
 
-const CreateCar = () => {
+const CreateCar = ({ title }) => {
+    const navigate = useNavigate()
 
-    return (
-        <div>
+    useEffect(() => {
+        document.title = title
+    }, [title])
 
-        </div>
-    )
+    const handleSubmit = async (car) => {
+        await createCar(car)
+        navigate('/customcars')
+    }
+
+    return <CarForm submitLabel="Create" onSubmit={handleSubmit} />
 }
 
 export default CreateCar

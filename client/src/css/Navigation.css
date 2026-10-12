@@ -1,7 +1,64 @@
 nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 100vw;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
+    width: 100%;
+    min-height: 88px;
+    padding: 16px 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(8px);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav h1 {
+    letter-spacing: -0.04em;
+    text-shadow: 0 2px 18px rgba(255, 255, 255, 0.18);
+}
+
+nav a[role=button] {
+    margin: 0;
+    padding: 8px 14px;
+    font-size: 0.78rem;
+}
+
+@media (max-width: 820px) {
+    nav {
+        flex-wrap: wrap;
+        padding: 14px 20px;
+    }
+
+    #root nav h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    nav ul:last-child {
+        width: 100%;
+    }
+
+    nav ul:last-child li,
+    nav ul:last-child a {
+        flex: 1;
+        text-align: center;
+    }
 }

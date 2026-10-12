@@ -12,6 +12,31 @@
     --card-sectionning-background-color: rgba(0, 0, 0, 0.8);
     --form-element-active-border-color: var(--color);
     --form-element-placeholder-color: gray;
+    color: var(--color);
+    font-family: var(--font-family);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 320px;
+    background: #160408;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background: #160408;
+}
+
+a {
+    color: #ffd9dc;
+}
+
+a:hover {
+    color: var(--color);
 }
 
 #root h1 {
@@ -43,6 +68,14 @@
 
 #root [role=button]:hover, #root button:hover, #root input[type=submit]:hover {
     border: 2px solid var(--color);
+}
+
+#root [role=button]:focus-visible,
+#root button:focus-visible,
+#root input:focus-visible,
+#root a:focus-visible {
+    outline: 3px solid #ffd166;
+    outline-offset: 3px;
 }
 
 #root main {
