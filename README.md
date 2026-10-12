@@ -34,10 +34,14 @@ The following **stretch** functionality is completed:
 
 ## Video Walkthrough
 
-<!-- Replace with your GIF. Show the app running AND the table contents in the Render dashboard. -->
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='docs/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ...
+GIF recorded from the running app with headless Chrome and assembled with Pillow.
+
+<!-- Also add a screenshot of the table contents in your Render dashboard here (the project asks for it). -->
+<!-- ![Render dashboard table contents](docs/render-tables.png) -->
+
+The walkthrough covers: customizing a car and watching the photo and price change, an option blocked with the reason, an impossible combination rejected with an error, saving, the list, the details page, editing, and deleting.
 
 ## How it works
 
