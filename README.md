@@ -1,10 +1,16 @@
 # WEB103 Project 4 - Bolt Bucket
 
+<p align="center">
+  <img src="docs/bolt-bucket.jpg" alt="Bolt Bucket: a Torch Red Chevrolet Corvette C8" width="640">
+  <br>
+  <sub>Photo: <a href="https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C8_Stingray_3LT_Coupe_Z51_Torch_Red.jpg">Ethan Llamas</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (recolored)</sub>
+</p>
+
 Submitted by: **Dhimy Jean**
 
 About this web app: **Bolt Bucket is a custom car builder. Pick a body style (coupe or convertible), then choose an exterior color, roof, wheels, and interior. The car preview and the price update as you choose, impossible combinations are blocked, and saved cars can be viewed, edited, and deleted. Everything is stored in a PostgreSQL database hosted on Render.**
 
-Time spent: **__ hours** spent in total
+Time spent: **7 hours** spent in total
 
 ## Required Features
 
@@ -37,6 +43,18 @@ The following **stretch** functionality is completed:
 <img src='docs/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF recorded from the running app with headless Chrome and assembled with Pillow.
+
+**Full video (about 70 seconds, with title and closing slides): [docs/walkthrough.mp4](docs/walkthrough.mp4)**
+
+### Screenshots
+
+| Exterior | Roof |
+| --- | --- |
+| <img src="docs/screenshots/exterior-picker.webp" alt="Exterior picker" width="380"> | <img src="docs/screenshots/roof-picker.webp" alt="Roof picker" width="380"> |
+
+| Wheels | Interior |
+| --- | --- |
+| <img src="docs/screenshots/wheels-picker.webp" alt="Wheels picker" width="380"> | <img src="docs/screenshots/interior-picker.webp" alt="Interior picker" width="380"> |
 
 <!-- Also add a screenshot of the table contents in your Render dashboard here (the project asks for it). -->
 <!-- ![Render dashboard table contents](docs/render-tables.png) -->
